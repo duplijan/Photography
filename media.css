@@ -1,0 +1,185 @@
+@media only screen and (min-width: 300px) and (max-width: 600px){
+  .info .info-content1, .info .info-content2 {
+   display: block;
+ }
+ .info .show-btn  {
+   display: block;
+ }
+ .info .hide-btn {
+ 	display: block;
+ }
+ .show-btn-toggle {
+   display: none;
+ }
+ .hide-btn-toggle {
+   display: block;
+ }
+ .content {
+   height: 0;
+ }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px){
+  /******** NAV ************/
+  .toggle {
+    display: block;
+  }
+  .navigation {
+    display: none;
+    padding: 10px;
+    background-color: #1D8348;
+  }
+  .navigation .nav-active {
+  	display: block;
+  }
+  .navigation a {
+    width: 50%;
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    font-size: 1.1rem;
+  }
+  .navigation a:hover {
+    background-color: #28B463;
+    padding: 5px;
+  }
+  .heading h1 {
+    font-size: 2rem;
+    padding: 100px 20px 20px 20px;
+  }
+  .header-wrap p {
+  	max-width: 50%;
+  	margin: 100px auto;
+    font-size: 1.2rem;
+  	padding: 30px;
+  }
+  /***** SECTIONS ********/
+  .section1-box, .section2-box   {
+    max-width: 80%;
+    }
+  .section1-box h3, .section2-box h3 {
+    font-size: 2rem;
+  	padding: 30px;
+  }
+  .section1-box p, .section2-box p {
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+  /***** SECTION INFO ********/
+  .section-info {
+    width: 100%;
+  	height: auto;
+    padding: 50px;
+  }
+  .section-info .info {
+  	width: 100%;
+  	height: auto;
+    top: 0;
+    left: 0;
+    transform: none;
+  	padding: 20px;
+  }
+  .section-info .info h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+  .section-info .info p {
+  	letter-spacing: 1.1px;
+  	font-size: 1rem;
+  	padding: 5px;
+    text-align: center;
+  }
+  /******* BANNER *******/
+  .banner h2 {
+    font-size: 2rem;
+    margin: -30px auto;
+  }
+  /*------------GALLERY---------------*/
+  .gallery-wrap {
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  .gallery-column {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+  }
+  .gallery-column img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 10px 0;
+  }
+  .modal {
+  	padding: 10px;
+  }
+  .modal-img{
+    width: 100%;
+    height: auto;
+  }
+  .close {
+    position: absolute;
+    font-size: 3rem;
+    top: 20%;
+    right: 8%;
+    color: #fff;
+    transition: all 0.4s;
+    cursor: pointer;
+  	z-index: 101;
+  }
+  /******************* FORM *******************/
+  .form {
+    margin:  0;
+  }
+  .form form {
+  	width:90%;
+  	margin: 0 auto;
+  	padding: 20px 0	;
+  }
+  fieldset {
+    padding: 15px;
+  	font-size: 0.8rem;
+    border: 3px solid #fff;
+  }
+  input, select, textarea {
+  	margin: 0 auto;
+    width:200px;
+  }
+  fieldset p {
+  	padding: 5px 0;
+  	margin-left: 10px;
+  }
+  button {
+    width: 90%;
+  	font-size: 1rem;
+    margin: 10px 0;
+  }
+  /******************* FOOTER *******************/
+  .footer {
+  	flex-direction: column;
+  }
+  .contact {
+    padding: 20px;
+  }
+  .contact h3 {
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+  }
+  .contact p, .rating p {
+    font-size: 0.9rem;
+    padding:5px;
+  }
+  .contact i, .rating i  {
+    transition: all 0.3s;
+    padding: 10px 5px;
+    cursor: pointer;
+  	font-size: 1.2rem;
+  }
+  .bottom {
+    display: none;
+  }
+
+}
